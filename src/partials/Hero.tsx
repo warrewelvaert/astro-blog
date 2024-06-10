@@ -15,15 +15,33 @@ const Hero = () => (
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
+          I am a final-year Software Engineering student at{' '}
+          <a className="text-cyan-400 hover:underline" href="https://howest.be">
+            Howest
           </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
+          , currently gaining practical experience by working at{' '}
+          <a
+            className="text-cyan-400 hover:underline"
+            href="https://justrussel.com"
+          >
+            Just Russel
           </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          as junior full stack developer. My diverse IT skills are showcased on
+          this page, though I am currently focusing on developing projects with
+          Django and Nuxt for the{' '}
+          <a
+            className="text-cyan-400 hover:underline"
+            href="https://app.justrussel.com"
+          >
+            Just Russel app
+          </a>{' '}
+          .<br></br>
+          <br></br>
+          Beyond my technical abilities, I am passionate about solving complex
+          problems and continuously learning about new technologies. I enjoy
+          collaborating with teams to create innovative solutions and am always
+          eager to take on new challenges that push the boundaries of my
+          knowledge and skills.
         </>
       }
       avatar={
