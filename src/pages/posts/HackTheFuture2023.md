@@ -27,7 +27,7 @@ We spent most of the morning getting familiar with the code and coming up with a
 But before we knew it it was time for the lunch break, were we received plenty of food and drinks. 
 We also got the opportunity to quickly visit the Zoo for free, which we used to take some pictures of the koala's.
 
-![koala](/src/images/htf-3.jpg)
+![koala](/assets/images/htf-3.jpg)
 
 After lunch we got to work again and started programming our algorithm, doing pair programming to help each other out. 
 We made good progress, and created a solution which we were both fairly confident in.
@@ -38,7 +38,7 @@ Ultimately our hard work payed off as we became second, only being beaten by our
 After the challenge we were treated with a plentiful menu of food and drinks, during which we got the chance to catch up with some other Howest students and sharing our experiences.
 At the end off the day we went home full of confidence with a goody bag, second place price and a certificate.
 
-![receiving price](/src/images/htf-2.jpg)
+![receiving price](/assets/images/htf-2.jpg)
 
 ## Conclusion
 
