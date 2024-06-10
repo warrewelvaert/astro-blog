@@ -27,8 +27,8 @@ const Hero = () => (
             Just Russel
           </a>{' '}
           as junior full stack developer. My diverse IT skills are showcased on
-          this page, though I am currently focusing on developing projects with
-          Django and Nuxt for the{' '}
+          this page, though I am currently focusing on development with Django
+          and Nuxt for the{' '}
           <a
             className="text-cyan-400 hover:underline"
             href="https://app.justrussel.com"
