@@ -7,142 +7,35 @@ imgSrc: '/assets/images/flutter-meetup-1.webp'
 imgAlt: 'Flutter Belgium Meetup'
 ---
 
-This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+## Introduction
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+The Flutter Meetup held at Howest in Bruges, was the 18th edition of the event. 
+An interesting event where a bunch of Flutter developers come together to learn and share their experiences with Dart & Flutter.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+## Event Overview
 
-## Headings
+The event started with the opportunity for some quick networking, along with some drinks and food from a food truck.
 
-# H1 For example
+After which the event started with some lightning talks. 
+Here developers who wanted could share and show off their Flutter project in quick 5 minute presentation and demonstration. 
+The projects included things like, an interactive beer brewery map and integrating crypto currency with Flutter.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+After the lightning talks, Thijs Primez from Howest talked about a project he created for a company.
+He created a Flutter app which used object detection and optical character recognition, to scan the tubes of silo's and their trucks. 
+So truck drivers can smoothly confirm they are using the right silo. 
 
-## H2 For example
+Although the project was only a proof of concept, I was impressed and learned a lot about object detection. Something I did not have any experience with. 
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+After this Enzo Conty gave a presentation about accessibility and building an app with support for various disabilities. 
+He went over various disabilities which affect users, and what techniques can be used to make applications more accessible for users, and showing the importance of implementing them.
 
-### H3 For example
+It proved to be an interesting talk which provided me with a bunch of tips to make any web application more accessible.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+After the presentation I enrolled in a raffle with tickets to FlutterCon as the grand prize. 
+Sadly I did not win anything.
 
-#### H4 For example
+## Conclusion
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+Ultimately, the Flutter Meetup was an interesting and informative event. Although I had worked with Flutter before, my knowledge of it was limited so I learned a lot about the Dart & Flutter. 
 
-##### H5 For example
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
-###### H6 For example
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
-## Emphasis
-
-Emphasis, aka italics, with _asterisks_ or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-## Blockquotes
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
-## Horizontal separator
-
-This is a horizontal separator:
-
----
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
----
-
-## List types
-
-### Ordered list
-
-1. List item 1
-2. List item 2
-   1. Nested list item A
-   2. Nested list item B
-3. List item 3
-
-### Unordered list
-
-- List item
-- List item
-  - Nested list item
-  - Nested list item
-    - Double nested list item
-    - Double nested list item
-- List item
-
-### Mixed list
-
-1. First ordered list item
-2. Another item
-   - Unordered sub-list.
-3. Actual numbers don't matter, just that it's a number
-   1. Ordered sub-list
-4. And another item.
-
-## Links
-
-[Inline-style link](https://www.google.com)
-
-[Inline-style link with title](https://www.google.com "Google's Homepage")
-
-[Reference-style link][arbitrary case-insensitive reference text]
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
-## Images
-
-Images included in _\_posts_ folder are lazy loaded.
-
-Inline-style:
-![alt text](/src/images/random.jpeg 'Logo Title Text 1')
-
-## Table
-
-| Tables        |      Are      | Cool |
-| ------------- | :-----------: | ---: |
-| col 3 is      | right-aligned | 1600 |
-| col 2 is      |   centered    |   12 |
-| zebra stripes |   are neat    |    1 |
-
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
-## Syntax highlight
-
-```javascript
-var s = 'JavaScript syntax highlighting'; var s = 'JavaScript syntax highlighting';
-alert(s);
-```
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
-```python
-s = "Python syntax highlighting"
-print s
-```
+Beyond that I also learned a lot about object detection and accessibility, and would recommend the Flutter Meetup for any Flutter enthusiasts.
