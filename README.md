@@ -1,5 +1,7 @@
 # Astro Blog
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a5eb3db5-17b2-4327-bec7-f0175a7d97a4/deploy-status)](https://app.netlify.com/sites/warreblog/deploys)
+
 Blog for module `Professional Networking` @ Howest.
 
 Built with [`Astro`](https://astro.build/) and the [`Astro Boilerplate`](https://github.com/ixartz/Astro-boilerplate) template.
