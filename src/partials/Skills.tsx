@@ -1,36 +1,31 @@
-import { Section } from 'astro-boilerplate-components';
+import { GradientText, Section } from 'astro-boilerplate-components';
 
-// TODO: Add skill icons
-
-const skillsData = [
-  {
-    category: 'Programming Languages',
-    skills: ['JavaScript', 'Java', 'Python', 'C#', 'C++'],
-  },
-  { category: 'Frameworks', skills: ['Django', 'ASP .NET', 'Vue.js', 'Nuxt'] },
-  {
-    category: 'Web Development',
-    skills: ['HTML', 'CSS', 'SASS', 'Node.js', 'Tailwind CSS'],
-  },
-  { category: 'Database Management', skills: ['SQL', 'MongoDB', 'PostgreSQL'] },
-  { category: 'Version Control', skills: ['Git', 'GitHub'] },
-  { category: 'Tools', skills: ['Docker', 'Firebase', 'GCP'] },
-];
+import { SkillsData } from '@/data/SkillsData';
 
 const Skills = () => (
   <Section title="Skills">
     <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-      {skillsData.map((skillCategory) => (
+      {SkillsData.map((skillCategory) => (
         <div
           key={skillCategory.category}
-          className="rounded-lg  bg-slate-800 p-6 shadow-lg"
+          className="rounded-lg bg-slate-800 p-6 shadow-lg"
         >
-          <h3 className="mb-4 text-xl font-bold">{skillCategory.category}</h3>
-          <ul className="list-inside list-disc">
+          <h3 className="mb-4 text-xl font-bold">
+            <GradientText> {skillCategory.category}</GradientText>
+          </h3>
+          <div className="flex flex-wrap gap-4">
             {skillCategory.skills.map((skill) => (
-              <li key={skill}>{skill}</li>
+              <a
+                key={skill.name}
+                href={skill.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-50"
+              >
+                <img src={skill.icon} alt={skill.name} className="h-12 w-12" />
+              </a>
             ))}
-          </ul>
+          </div>
         </div>
       ))}
     </div>
