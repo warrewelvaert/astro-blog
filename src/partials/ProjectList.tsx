@@ -16,51 +16,47 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Project 1"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
+        name="Magic The Gathering: Deck Builder"
+        description="Application where users can build and keep track of their Magic The Gathering deck. 
+        Built with ASP .NET Core, C#, Blazor, Entity Framework Core, REST and GraphQL API's. "
+        link="https://github.com/warrewelvaert/mtg-deck-builder"
         img={{
           src: '/assets/images/project-web-design.png',
           alt: 'Project Web Design',
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.SKY}>ASP .NET</Tags>
+            <Tags color={ColorTags.LIME}>C#</Tags>
           </>
         }
       />
       <Project
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
+        name="Chew Time"
+        description="A native Android application that helps the user keep track of pet food.
+         The app notifies the user when their food storage is almost empty and when the pet needs to be fed.
+         Built with Jetpack Compose using a Room database and Retrofit for API calls."
+        link="https://github.com/warrewelvaert/chew-time"
         img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
-            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+            <Tags color={ColorTags.VIOLET}>Kotlin</Tags>
+            <Tags color={ColorTags.EMERALD}>Android</Tags>
+            <Tags color={ColorTags.YELLOW}>Jetpack Compose</Tags>
           </>
         }
       />
       <Project
-        name="Project 3"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
+        name="Astro Blog"
+        description="Source code for this blog. 
+        Built using Astro, TypeScript, and Tailwind CSS."
+        link="https://github.com/warrewelvaert/astro-blog"
         img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
+            <Tags color={ColorTags.ORANGE}>Astro</Tags>
             <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.BLUE}>Tailwind.css</Tags>
           </>
         }
       />
