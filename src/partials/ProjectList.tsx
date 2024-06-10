@@ -21,8 +21,8 @@ const ProjectList = () => (
         Built with ASP .NET Core, C#, Blazor, Entity Framework Core, REST and GraphQL API's. "
         link="https://github.com/warrewelvaert/mtg-deck-builder"
         img={{
-          src: '/assets/images/project-web-design.png',
-          alt: 'Project Web Design',
+          src: '/assets/icons/magicka-2.svg',
+          alt: 'Magic The Gathering: Deck Builder',
         }}
         category={
           <>
@@ -37,7 +37,10 @@ const ProjectList = () => (
          The app notifies the user when their food storage is almost empty and when the pet needs to be fed.
          Built with Jetpack Compose using a Room database and Retrofit for API calls."
         link="https://github.com/warrewelvaert/chew-time"
-        img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
+        img={{
+          src: '/assets/icons/distributor-logo-android.svg',
+          alt: 'Chew Time',
+        }}
         category={
           <>
             <Tags color={ColorTags.VIOLET}>Kotlin</Tags>
@@ -51,7 +54,10 @@ const ProjectList = () => (
         description="Source code for this blog. 
         Built using Astro, TypeScript, and Tailwind CSS."
         link="https://github.com/warrewelvaert/astro-blog"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
+        img={{
+          src: '/assets/icons/space-pirates-and-zombies.svg',
+          alt: 'Astro Blog',
+        }}
         category={
           <>
             <Tags color={ColorTags.ORANGE}>Astro</Tags>
